@@ -4,6 +4,8 @@ Static portfolio homepage used as a recruiter-facing entry point for deployed we
 
 The site highlights a small selection of projects, with direct links to live demos, source code, GitHub, LinkedIn, and a PDF resume.
 
+Live site: [https://home.gdelvoye.fr/](https://home.gdelvoye.fr/)
+
 ## Stack
 
 - Static HTML and CSS
