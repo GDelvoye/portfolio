@@ -1,6 +1,15 @@
 # Portfolio
 
-Static portfolio homepage served directly from an Nginx container.
+Static portfolio homepage used as a recruiter-facing entry point for deployed web applications and data projects.
+
+The site highlights a small selection of projects, with direct links to live demos, source code, GitHub, LinkedIn, and a PDF resume.
+
+## Stack
+
+- Static HTML and CSS
+- Nginx container
+- Docker Compose for local serving
+- Local-only GoAccess reports from Nginx access logs
 
 ## Run Locally
 
@@ -37,4 +46,4 @@ docker run --rm \
 
 Then open `stats/report.html` locally.
 
-GoAccess is a lightweight log analyzer: it reads standard web server logs and turns them into visitor/page-view statistics without adding tracking JavaScript or cookies to the website.
+GoAccess reads standard web server logs and turns them into visitor/page-view statistics without adding tracking JavaScript or cookies to the website.
